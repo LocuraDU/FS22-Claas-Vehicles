@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="65">
-
-    <author>CREDENCE</author>
-	
-    <version>1.0</version>
-	
+    <author>CREDENCE</author>	
+    <version>1.0</version>	
     <title>
-        <en>NoobTheory Claas Vehicles</en>
-    </title>
-	
-    <iconFilename>ModIcon.dds</iconFilename>
-	
+        <en>Locura Mods Claas Vehicles</en>
+    </title	
+    <iconFilename>ModIcon.dds</iconFilename>	
     <multiplayer supported="true" />
 	
     <storeItems>
@@ -58,5 +53,4 @@
         <text name="BODY">			<en>Body Panel Color</en>		                                          </text>
         <text name="RIM">			<en>Rim Color</en>		                                                </text>
     </l10n>
-
 </modDesc>
