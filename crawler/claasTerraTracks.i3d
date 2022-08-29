@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="varitronTracks" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
+    <File fileId="10" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
+    <File fileId="14" filename="$data/shared/assets/assetLibraryStickers_diffuse.png"/>
+    <File fileId="17" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguarArray.png"/>
+    <File fileId="11" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguarDecals_diffuse.png"/>
+    <File fileId="13" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguarDecals_vmask.png"/>
+    <File fileId="15" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguarTrack_normal.png"/>
+    <File fileId="16" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguarTrack_vmask.png"/>
+    <File fileId="2" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguar_normal.dds"/>
+    <File fileId="3" filename="$data/shared/crawlers/claas/terraTracJaguar/terraTracJaguar_vmask.dds"/>
+    <File fileId="12" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="assetLibraryDecals_mat" materialId="4" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="assetLibraryDecals_mat" materialId="5" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="13"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="assetLibraryStickers_mat" materialId="6" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="14"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="claasTracks_mat" materialId="7" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.68 0.017 0.011 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="terraTracJaguar_mat" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="1 0.5605 0.0143 1"/>
+      <CustomParameter name="colorMat1" value="0.3392 0.2106 0.0492 1"/>
+      <CustomParameter name="colorMat2" value="0.8751 0.0016 0.0005 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="terraTracJaguarDecals_mat" materialId="9" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="terraTracJaguarTrack_mat" materialId="10" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="motionPathRubber_secondUV_colorMask">
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+      <Custommap name="mTrackArray" fileId="17"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="scrollPosition" value="0 0 0 0"/>
+      <CustomParameter name="prevScrollPosition" value="0 0 0 0"/>
+      <CustomParameter name="lengthAndRadius" value="2 0.5 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="claasTerraTracks.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="terraTracJaguar" translation="-0.000454865 0.563932 -0.916445" nodeId="34">
+        <Shape shapeId="1" name="terraTrackLeft" translation="0 -0.000731966 0.891045" nodeId="35" materialIds="8" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 36 37 38 39 45 46 47 48 49 50">
+          <TransformGroup name="frontPartLeft" nodeId="36">
+            <TransformGroup name="backPartLeft" translation="-7.77156e-18 -0.0331 0.329" nodeId="37">
+              <TransformGroup name="topHydraulicLeft" translation="-0.00137989 0.281499 -0.482759" rotation="0.27098 -0.0217243 0" nodeId="38">
+                <TransformGroup name="topHydraulicPunchLeft" translation="0 9.9476e-16 0.50124" nodeId="39"/>
+              </TransformGroup>
+              <Shape shapeId="2" name="crawlerClaasJaguarTTbigWheelBackLeft" translation="0 0.042 -1.257" rotation="90 -0 0" scale="1 1.05 1.05" clipDistance="300" nodeId="40" materialIds="7" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="3" name="screwDecals" translation="1.80007e-07 -2.91032e-06 3.03984e-06" clipDistance="50" nodeId="41" materialIds="4" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              </Shape>
+              <Shape shapeId="4" name="decals" clipDistance="50" nodeId="42" materialIds="9" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="5" name="screw_decals" clipDistance="50" nodeId="43" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <TransformGroup name="backPartLeftJoint" rotation="0 -51.1191 0" nodeId="44"/>
+            </TransformGroup>
+            <TransformGroup name="lowerHydraulicLeft" translation="-0.00152813 0.179412 0.280609" rotation="64.4094 181.026 0" nodeId="45">
+              <TransformGroup name="lowerHydraulicPunchLeft" translation="-2.00921e-14 -1.65201e-14 0.376576" nodeId="46"/>
+            </TransformGroup>
+            <TransformGroup name="lowerArm01Left" translation="-0.00485485 -0.167207 0.373285" nodeId="47">
+              <TransformGroup name="lowerArm02Left" translation="0.0019199 -0.0900424 -0.371362" nodeId="48">
+                <TransformGroup name="smallWheelFrontLeft" translation="0.00234779 -0.0346876 0.204418" nodeId="49"/>
+                <TransformGroup name="smallWheelBackLeft" translation="0.00234779 -0.0346875 -0.209323" nodeId="50"/>
+                <TransformGroup name="lowerArm02LeftJoint" rotation="0 246.142 0" nodeId="51"/>
+              </TransformGroup>
+              <Shape shapeId="6" name="screw_decals" clipDistance="50" nodeId="52" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <Shape shapeId="7" name="crawlerClaasJaguarTTbigWheelFrontLeft" translation="-0.000455006 0.009 0.92" rotation="90 -0 0" scale="1 1.05 1.05" clipDistance="300" nodeId="53" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="8" name="screwDecals" translation="1.80007e-07 -1.7791 2.14577e-06" clipDistance="50" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="9" name="sticker_decals" clipDistance="50" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="10" name="screw_decals" clipDistance="50" nodeId="56" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <TransformGroup name="frontPartLeftJoint" nodeId="57"/>
+          </TransformGroup>
+          <Shape shapeId="11" name="trackLeft" translation="0.000454865 -0.564 0.027" scale="1.1 1 1" clipDistance="300" nodeId="58" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="screw_decals" clipDistance="50" nodeId="59" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="root" rotation="0 121.726 0" nodeId="60"/>
+        </Shape>
+        <Shape shapeId="13" name="terraTrackRight" translation="0 -0.000731966 0.891045" nodeId="61" materialIds="8" castsShadows="true" receiveShadows="true" skinBindNodeIds="61 62 63 64 65 71 72 73 74 75 76">
+          <TransformGroup name="frontPartRight" translation="-7.77156e-18 0 1.42109e-16" nodeId="62">
+            <TransformGroup name="backPartRight" translation="7.77156e-18 -0.0331 0.329" nodeId="63">
+              <TransformGroup name="topHydraulicRight" translation="0.001 0.281499 -0.482759" rotation="0.27098 -0.0217243 0" nodeId="64">
+                <TransformGroup name="topHydraulicPunchRight" translation="0 -6.816e-10 0.50124" nodeId="65"/>
+              </TransformGroup>
+              <Shape shapeId="14" name="crawlerClaasJaguarTTbigWheelsBackRight" translation="-0.000455006 0.042 -1.257" rotation="90 0 0" scale="1 1.05 1.05" clipDistance="300" nodeId="66" materialIds="7" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="15" name="screwDecals" translation="1.80007e-07 -2.91032e-06 3.03984e-06" clipDistance="50" nodeId="67" materialIds="4" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              </Shape>
+              <Shape shapeId="16" name="decals" clipDistance="50" nodeId="68" materialIds="9" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="17" name="screw_decals" clipDistance="50" nodeId="69" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <TransformGroup name="backPartRightJoint" rotation="0 205.775 0" nodeId="70"/>
+            </TransformGroup>
+            <TransformGroup name="lowerHydraulicRight" translation="0.00152813 0.179412 0.280609" rotation="64.4094 181.026 0" nodeId="71">
+              <TransformGroup name="lowerHydraulicPunchRight" translation="-0.00582273 -9.40263e-05 0.376531" nodeId="72"/>
+            </TransformGroup>
+            <TransformGroup name="lowerArm01Right" translation="0.00485485 -0.167207 0.373285" nodeId="73">
+              <TransformGroup name="lowerArm02Right" translation="-0.0019199 -0.0900424 -0.371362" nodeId="74">
+                <TransformGroup name="smallWheelFrontRight" translation="-0.00234779 -0.0346876 0.204418" nodeId="75"/>
+                <TransformGroup name="smallWheelBackRight" translation="-0.00234779 -0.0346875 -0.209323" nodeId="76"/>
+                <TransformGroup name="lowerArm02RightJoint" rotation="0 101.616 0" nodeId="77"/>
+              </TransformGroup>
+              <Shape shapeId="18" name="screw_decals" translation="9.86076e-34 0 0" clipDistance="50" nodeId="78" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <Shape shapeId="19" name="crawlerClaasJaguarTTbigWheelFrontRight" translation="-0.000455006 0.009 0.92" rotation="90 0 0" scale="1 1.05 1.05" clipDistance="300" nodeId="79" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="8" name="screwDecals" translation="1.80007e-07 -1.7791 2.14577e-06" clipDistance="50" nodeId="80" materialIds="4" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="20" name="sticker_decals" translation="9.86076e-34 0 0" clipDistance="50" nodeId="81" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="21" name="screw_decals" translation="9.86076e-34 0 0" clipDistance="50" nodeId="82" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <TransformGroup name="frontPartRightJoint" nodeId="83"/>
+          </TransformGroup>
+          <Shape shapeId="11" name="trackRight" translation="0.000454865 -0.56421 0.027" scale="1.1 1 1" clipDistance="300" nodeId="84" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="22" name="screw_decals" clipDistance="50" nodeId="85" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="root" rotation="0 -7.73597 0" nodeId="86"/>
+        </Shape>
+      </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="44">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="51">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="57">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="60">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="70">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="77">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="83">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="86">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<crawler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/crawler.xsd">
+    <file name="crawler/claasTerraTracks.i3d" leftNode="0|0" rightNode="0|1"/>
+
+    <scrollerNodes>
+        <scrollerNode node="1" scrollSpeed="-0.15" scrollLength="1" shaderParameterName="scrollPosition" shaderParameterComponent="1"/>
+    </scrollerNodes>
+
+    <rotatingParts>
+        <rotatingPart node="0|0|1" radius="0.461" />
+        <rotatingPart node="0|3" radius="0.461" />
+        <rotatingPart node="0|2|0|0" radius="0.172" />
+        <rotatingPart node="0|2|0|1" radius="0.172" />
+    </rotatingParts>
+
+    <animations>
+        <animation name="crawlerLiftAnimationLeft" isLeft="true">
+            <part node="0"       startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="-15.0 0.0 0.0" />
+            <part node="0|0"     startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="10.8 0.0 0.0" />
+            <part node="0|0|0|0" startTime="0.0" endTime="1.0"  startTrans="-0.0 0.0 0.501" endTrans="-0.0 0.0 0.445" />
+            <part node="0|2"     startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="-1.828 0.0 0.0" />
+            <part node="0|2|0"   startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="16.867 0.0 0.0" />
+            <part node="1"       startTime="0.0" endTime="1.0"  shaderParameter="scrollPosition" shaderStartValues="0 0 1 0" shaderEndValues="0 0 1 1" />
+        </animation>
+        <animation name="crawlerLiftAnimationRight" isLeft="false">
+            <part node="0"       startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="-15.0 0.0 0.0" />
+            <part node="0|0"     startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="10.8 0.0 0.0" />
+            <part node="0|0|0|0" startTime="0.0" endTime="1.0"  startTrans="-0.0 0.0 0.501" endTrans="-0.0 0.0 0.445" />
+            <part node="0|2"     startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="-1.828 0.0 0.0" />
+            <part node="0|2|0"   startTime="0.0" endTime="1.0"  startRot="0.0 0.0 0.0" endRot="16.867 0.0 0.0" />
+            <part node="1"       startTime="0.0" endTime="1.0"  shaderParameter="scrollPosition" shaderStartValues="0 0 1 0" shaderEndValues="0 0 1 1" />
+        </animation>
+    </animations>
+
+    <rimColorNodes>
+        <rimColorNode node="0|0|1" shaderParameter="colorMat0"/>
+        <rimColorNode node="0|3" shaderParameter="colorMat0"/>
+    </rimColorNodes>
+</crawler>
