@@ -4,7 +4,7 @@
     <version>1.0</version>	
      <title>
         <en>Locura Claas Vehicles</en>
-     </title	
+     </title>	
     <iconFilename>ModIcon.dds</iconFilename>	
     <multiplayer supported="true" />
 	
@@ -15,7 +15,7 @@
     </storeItems>
 
     <l10n>
-        <text name="BACKLIGHTS"> 		<en>Tail Lights</en> 			<de>Heckleuchten</de> 		               </text>
+        <text name="BACKLIGHTS"> 		<en>Tail Lights</en> 			<de>Heckleuchten</de> 		                </text>
         <text name="BACK_V">			<en>Tail Lights V-Shaped</en> 	        <de>Heckleuchten V-Form</de>	                </text>
         <text name="BACK_LR">			<en>Tail Lights Dual</en> 		<de>Heckleuchten Beidseitig</de>	        </text>
         <text name="FLASHER">			<en>Front Flashers</en>			<de>Frontblitzer</de>				</text>
