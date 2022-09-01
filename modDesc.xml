@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="65">
     <author>CREDENCE</author>	
     <version>1.0</version>	
-    <title>
-        <en>Locura Mods Claas Vehicles</en>
-    </title	
+     <title>
+        <en>Locura Claas Vehicles</en>
+     </title	
     <iconFilename>ModIcon.dds</iconFilename>	
     <multiplayer supported="true" />
 	
@@ -15,42 +15,42 @@
     </storeItems>
 
     <l10n>
-        <text name="BACKLIGHTS"> 		<en>Tail Lights</en> 			<de>Heckleuchten</de> 				</text>
-        <text name="BACK_V">			<en>Tail Lights V-Shaped</en> 	<de>Heckleuchten V-Form</de>		      </text>
-        <text name="BACK_LR">			<en>Tail Lights Dual</en> 		<de>Heckleuchten Beidseitig</de>	      </text>
+        <text name="BACKLIGHTS"> 		<en>Tail Lights</en> 			<de>Heckleuchten</de> 		               </text>
+        <text name="BACK_V">			<en>Tail Lights V-Shaped</en> 	        <de>Heckleuchten V-Form</de>	                </text>
+        <text name="BACK_LR">			<en>Tail Lights Dual</en> 		<de>Heckleuchten Beidseitig</de>	        </text>
         <text name="FLASHER">			<en>Front Flashers</en>			<de>Frontblitzer</de>				</text>
         <text name="FLASHER_FALSE">		<en>Flashers Off</en>			<de>Ohne Frontblitzer</de>			</text>
         <text name="FLASHER_TRUE">		<en>Flashers On</en>			<de>Mit Frontblitzer</de>			</text>
-        <text name="WINDOWS">			<en>Windows</en>				<de>Scheiben</de>					</text>
-        <text name="DEFAULT_WINDOWS">	<en>Windows Default</en>		<de>Standardscheiben</de>			</text>
-        <text name="WINDOWS_DARK">		<en>Dark Windows</en>			<de>Verdunkelte Scheiben</de>		      </text>
-        <text name="DECAL">			<en>Edition</en>				<de>Typenschild</de>				</text>
-        <text name="DEFAULT">			<en>Default</en>				<de>Standard</de>					</text>
-        <text name="40">		      <en>40.000 Edition</en>			<de>40.000 Edition</de>				</text>
-        <text name="MAINCOLOR">		<en>Maincolor</en>			<de>Hauptfarbe</de>				</text>
+        <text name="WINDOWS">			<en>Windows</en>			<de>Scheiben</de>				</text>
+        <text name="DEFAULT_WINDOWS">	        <en>Windows Default</en>		<de>Standardscheiben</de>			</text>
+        <text name="WINDOWS_DARK">		<en>Dark Windows</en>			<de>Verdunkelte Scheiben</de>		        </text>
+        <text name="DECAL">			<en>Edition</en>		        <de>Typenschild</de>				</text>
+        <text name="DEFAULT">			<en>Default</en>		        <de>Standard</de>				</text>
+        <text name="40">		        <en>40.000 Edition</en>			<de>40.000 Edition</de>				</text>
+        <text name="MAINCOLOR">		        <en>Maincolor</en>			<de>Hauptfarbe</de>				</text>
         <text name="DESIGN">			<en>Second Color</en>			<de>Zweitfarbe</de>				</text>
         <text name="TOP">			<en>Top Cover</en>			<de>Obere Abdeckung</de>			</text>
-        <text name="SIDE">		      <en>Side Cover</en>			<de>Seitenabdeckung</de>			</text>
-        <text name="INTERIOR">		<en>Interior Paint</en>			<de>Interieurfarbe</de>				</text>
+        <text name="SIDE">		        <en>Side Cover</en>			<de>Seitenabdeckung</de>			</text>
+        <text name="INTERIOR">		        <en>Interior Paint</en>			<de>Interieurfarbe</de>				</text>
         <text name="CG1">			<en>Claas Green</en>			<de>Claas Grün</de>				</text>
         <text name="CG2">			<en>Claas Green Metallic</en>		<de>Claas Grün Matt</de>			</text>
         <text name="CG3">			<en>Claas Green Chrome</en>					                        </text>
-        <text name="CG4">			<en>Claas Green Metallic 2</en>					                  </text>
+        <text name="CG4">			<en>Claas Green Metallic 2</en>					                        </text>
         <text name="CG5">			<en>Claas Green Chome 2</en>					                        </text>
         <text name="CG6">			<en>Claas Green Matte</en>		<de>Claas Grün Chrom</de>			</text>
         <text name="CW1">			<en>Claas White</en>			<de>Claas Weiß</de>				</text>
         <text name="CW2">			<en>Claas White Matt</en>		<de>Claas Weiß Matt</de>			</text>
         <text name="CW3">			<en>Claas White Chrome</en>		<de>Claas Weiß Chrom</de>			</text>
-        <text name="CR1">			<en>Claas Red</en>		      <de>Claas Rot</de>				</text>
+        <text name="CR1">			<en>Claas Red</en>		        <de>Claas Rot</de>				</text>
         <text name="CR2">			<en>Claas Red Matt</en>			<de>Claas Rot Matt</de>				</text>
         <text name="CR3">			<en>Claas Red Chrome</en>		<de>Claas Rot Chrom</de>			</text>
         <text name="CDG1">			<en>Claas Grey </en>			<de>Claas Grau </de>				</text>
         <text name="CDG2">			<en>Claas Grey Matt</en>		<de>Claas Grau Matt</de>			</text>
         <text name="CDG3">			<en>Claas Grey Special</en>		<de>Claas Grau Spezial</de>			</text>
         <text name="ROOF">			<en>Roof Color</en>						                        </text>
-        <text name="CHASSIS">			<en>Chassis Color</en>					                              </text>
-        <text name="HITCH">			<en>Hitch Color</en>				                                    </text>
-        <text name="BODY">			<en>Body Panel Color</en>		                                          </text>
-        <text name="RIM">			<en>Rim Color</en>		                                                </text>
+        <text name="CHASSIS">			<en>Chassis Color</en>					                                </text>
+        <text name="HITCH">			<en>Hitch Color</en>				                                        </text>
+        <text name="BODY">			<en>Body Panel Color</en>		                                                </text>
+        <text name="RIM">			<en>Rim Color</en>		                                                        </text>
     </l10n>
 </modDesc>
